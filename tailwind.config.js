@@ -1,9 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 
-const colors = require('tailwindcss/colors')  // to use colours not standard
-
+const colors = require("tailwindcss/colors"); // to use colours not standard
+//for production - look for any html files and only js files within src folder
 module.exports = {
-  purge: ['./**/*.html', './src/**/*.js'],        //for production - look for any html files and only js files within src folder
+  purge: ["./**/*.html", "./src/**/*.js"],
   content: [],
   theme: {
     extend: {
@@ -11,4 +11,4 @@ module.exports = {
     },
   },
   plugins: [],
-}
+};
