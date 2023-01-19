@@ -21,3 +21,4 @@ Commands to remember
 npx mix  - starts mix 
 
 npx mix watch - installs browser sync
+But pobably just use VSC extension to 'go live' as command makes mix go mental
