@@ -26,59 +26,56 @@
             A portfolio built with Tailwind and laravel Mix
           </h2>
           <p class="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-600">
-            It's a bit boring but I built it to start playing around with
-            Tailwind!
+            Basic link tree style portfolio to learn Tailwind classes. Work in
+            prog!
           </p>
         </div>
 
         <div class="mt-20 max-w-lg sm:mx-auto md:max-w-none">
           <div
-            class="grid grid-cols-1 gap-y-1 md:grid-cols-2 md:gap-x-12 md:gap-y-16"
+            class="grid grid-cols-1 gap-y-1 md:grid-cols-2 md:gap-x-12 md:gap-y-12"
           >
-            <div class="relative flex flex-col gap-6 sm:flex-row md:flex-col">
-              <div
-                class="flex h-12 items-center justify-center rounded-xl bg-indigo-500 text-white sm:shrink-0"
+            <div class="relative flex flex-col gap-1 sm:flex-row md:flex-col">
+              <button
+                class="flex h-12 items-center justify-center rounded-xl bg-indigo-500 text-white sm:shrink-0  hover:bg-sky-700"
               >
-                <div class="sm:min-w-0 sm:flex-1">
-                  <a
+                <a class="sm:min-w-0 sm:flex-1"
                     href="https://www.linkedin.com/in/bellnicola/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    class="hover:bg-sky-700"
                   >
                     <p
                       class="text-lg font-semibold leading-8 text-white text-center"
                     >
                       Linkedin
-                    </p></a
-                  >
-                </div>
-              </div>
+                    </p>
+                </a>
+              </button>
             </div>
 
             <div class="relative flex flex-col gap-6 sm:flex-row md:flex-col">
-              <div
-                class="flex h-12 items-center justify-center rounded-xl bg-indigo-500 text-white sm:shrink-0"
+              <a href="https://github.com/Nicolabell" target="_blank"
+                    ><div
+                class="flex h-12 items-center justify-center rounded-xl bg-indigo-500 text-white sm:shrink-0 hover:bg-sky-700"
               >
-                <div class="sm:min-w-0 sm:flex-1">
-                  <a href="https://github.com/Nicolabell" target="_blank"
-                    ><p
+                <button class="sm:min-w-0 sm:flex-1">
+                  <p
                       class="text-lg font-semibold leading-8 text-white text-center"
                     >
                       Github
-                    </p></a
+                    </p>
+                </button>
+              </div></a
                   >
-                </div>
-              </div>
             </div>
 
             <div
-              class="relative flex flex-col gap-6 sm:flex-row md:flex-col lg:flex-colw"
+              class="relative flex flex-col sm:flex-row md:flex-col lg:flex-col"
             >
               <div
-                class="flex h-12 w-60 items-center justify-center rounded-xl bg-indigo-500 text-white sm:shrink-0"
+                class="flex h-12 w-60 items-center justify-center rounded-xl bg-indigo-500 text-white sm:shrink-0 hover:bg-sky-700"
               >
-                <div class="sm:min-w-0 sm:flex-1">
+                <button class="sm:min-w-0 sm:flex-1">
                   <a href="https://gitlab.com/Nicolaishere"
                     ><p
                       class="text-lg font-semibold leading-8 text-white text-center"
@@ -86,21 +83,22 @@
                       Gitlab
                     </p></a
                   >
-                </div>
+                </button>
               </div>
             </div>
 
             <div class="relative flex flex-col gap-6 sm:flex-row md:flex-col">
               <div
-                class="flex h-12 w-60 items-center justify-center rounded-xl bg-indigo-500 text-white sm:shrink-0"
+                class="flex h-12 w-60 items-center justify-center rounded-xl bg-indigo-500 text-white sm:shrink-0 hover:bg-sky-700"
               >
-                <div class="sm:min-w-0 sm:flex-1">
-                  <a href="https://codepen.io/nicolarb" target="_blank"
-                    ><p
+                <a href="https://codepen.io/nicolarb" target="_blank"
+                    ><button class="sm:min-w-0 sm:flex-1">
+                  <p
                       class="text-lg font-semibold leading-8 text-white text-center"
                     >
                       Codepen
-                    </p></a
+                    </p>
+                </button></a
                   >
                 </div>
               </div>
@@ -110,6 +108,9 @@
       </div>
     </div>
 
+    <footer class="bg-slate-400 text-center">
+      <div class="py-4 px'">Hello i'm the footer</div>
+    </footer>
     <script src="./dist/app.js"></script>
   </body>
 </html>
