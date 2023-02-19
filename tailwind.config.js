@@ -9,6 +9,8 @@ module.exports = {
   theme: {
     extend: {
       teal: colors.teal,
+      primary: "#398030",
+      secondary: "#989845",
     },
   },
   plugins: [],
