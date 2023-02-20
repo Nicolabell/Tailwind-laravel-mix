@@ -1,7 +1,7 @@
 ***Setting up Tailwind CSS with laravel Mix 6***
 
 Netlify deployment:
-
+https://nicola-tech.netlify.app/
 
 References:
 
@@ -28,3 +28,7 @@ npx mix  - starts mix
 npx mix watch - installs browser sync / watches tailwind changes. Bit buggy and keeps looping...
 
 But pobably just use VSC extension to 'go live' for html changes as command makes mix go mental.
+https://www.sitepoint.com/collapsing-margins/
+Things learned:
+
+Margin collapse is a thing: https://www.sitepoint.com/collapsing-margins/
