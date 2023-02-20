@@ -474,12 +474,12 @@ video {
 .relative {
   position: relative;
 }
+.m-7 {
+  margin: 1.75rem;
+}
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-.mt-6 {
-  margin-top: 1.5rem;
 }
 .mt-20 {
   margin-top: 5rem;
@@ -510,9 +510,6 @@ video {
 }
 .max-w-2xl {
   max-width: 42rem;
-}
-.max-w-lg {
-  max-width: 32rem;
 }
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -561,12 +558,11 @@ video {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
 .pt-14 {
   padding-top: 3.5rem;
+}
+.text-left {
+  text-align: left;
 }
 .text-center {
   text-align: center;
@@ -599,10 +595,6 @@ video {
   --tw-text-opacity: 1;
   color: rgb(79 70 229 / var(--tw-text-opacity));
 }
-.text-gray-600 {
-  --tw-text-opacity: 1;
-  color: rgb(75 85 99 / var(--tw-text-opacity));
-}
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -615,6 +607,9 @@ video {
 }
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+li {
+  padding: 20px;
 }
 .hover\:bg-sky-700:hover {
   --tw-bg-opacity: 1;
@@ -651,10 +646,6 @@ video {
     padding-top: 8rem;
     padding-bottom: 8rem;
   }
-
-  .sm\:text-center {
-    text-align: center;
-  }
 }
 @media (min-width: 768px) {
 
@@ -671,8 +662,8 @@ video {
          column-gap: 3rem;
   }
 
-  .md\:gap-y-12 {
-    row-gap: 3rem;
+  .md\:gap-y-10 {
+    row-gap: 2.5rem;
   }
 }
 @media (min-width: 1024px) {
