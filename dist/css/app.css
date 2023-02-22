@@ -511,6 +511,27 @@ video {
 .max-w-2xl {
   max-width: 42rem;
 }
+.max-w-screen-sm {
+  max-width: 640px;
+}
+.max-w-\[20\%\] {
+  max-width: 20%;
+}
+.max-w-\[230\%\] {
+  max-width: 230%;
+}
+.max-w-\[30\%\] {
+  max-width: 30%;
+}
+.max-w-\[25\%\] {
+  max-width: 25%;
+}
+.max-w-\[80\%\] {
+  max-width: 80%;
+}
+.max-w-\[40\%\] {
+  max-width: 40%;
+}
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -646,6 +667,11 @@ li {
     padding-top: 8rem;
     padding-bottom: 8rem;
   }
+
+  .sm\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
 }
 @media (min-width: 768px) {
 
@@ -680,5 +706,15 @@ li {
   .lg\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .lg\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .lg\:py-9 {
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
   }
 }
